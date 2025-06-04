@@ -92,7 +92,7 @@ if __name__ == '__main__':
 			break
 		location = vehicle.location.global_relative_frame
 		attitude = vehicle.attitude
-		print "Altitude =" + str(vehicle.location.global_relative_frame.alt)
+		print ("Altitude =" + str(vehicle.location.global_relative_frame.alt))
 		
 		if simulation:
 			sim.refresh_simulator(location,attitude)
